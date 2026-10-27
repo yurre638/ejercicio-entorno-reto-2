@@ -31,6 +31,7 @@ def fn_ProcesarListaVentas_fl(ventas_lst):
     
     while i < len(ventas_lst):
         total_fl += ventas_lst[i]
+        i += 1
 
     return total_fl
 
